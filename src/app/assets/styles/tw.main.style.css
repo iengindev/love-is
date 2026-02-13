@@ -3,3 +3,36 @@
 :root {
   @apply text-sm;
 }
+
+.content {
+  @apply w-full h-screen;
+  @apply flex flex-col items-center justify-center gap-6;
+}
+
+.content .header {
+  @apply flex flex-col gap-2 items-center;
+}
+
+.content .header .title {
+  @apply text-4xl font-bold text-rose-500;
+}
+
+.content .header .sub-title {
+  @apply text-lg font-normal text-slate-500;
+}
+
+.content .sub-content {
+  @apply flex flex-col items-center justify-center gap-4;
+}
+
+.content .sub-content .img-sm {
+  @apply w-4/5;
+}
+
+.content .sub-content .text {
+  @apply text-lg font-normal text-slate-800;
+}
+
+.content .footer {
+  @apply flex flex-nowrap items-center gap-2;
+}
